@@ -28,7 +28,7 @@ jobs:
         pip install -r requirements.txt
     - uses: harmon758/postgresql-action@v1
       with:
-        postgres version: '12'
+        postgresql version: '12'
     #- name: Lint with flake8
     #  run: |
         # stop the build if there are Python syntax errors or undefined names
